@@ -5,7 +5,7 @@
 from deep_translator import GoogleTranslator
 
 # Passo 3: Texto de exemplo
-texto = "Oi neguinha! NLP é muito legal de estudar."
+texto = "Oi, esse é o meu primeiro projeto em NLP."
 
 # Passo 4: Traduzir para inglês
 traducao = GoogleTranslator(source='pt', target='en').translate(texto)
